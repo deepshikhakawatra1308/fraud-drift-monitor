@@ -1,0 +1,45 @@
+{
+  "baseline_pr_auc_random": 0.0011586773522466929,
+  "LogReg (class weights)": {
+    "PR-AUC": 0.6716086182310491,
+    "ROC-AUC": 0.9347507911234392
+  },
+  "HistGB (class weights)": {
+    "PR-AUC": 0.7260728138899387,
+    "ROC-AUC": 0.9546349660715032
+  },
+  "IsolationForest": {
+    "PR-AUC": 0.03339649854609818,
+    "ROC-AUC": 0.9474270745702582
+  },
+  "threshold": {
+    "chosen": 0.8603382355392148,
+    "later_cost": 8862.920000000002,
+    "later_FP": 50,
+    "later_FN": 37,
+    "default_0.5_cost": 12843.47,
+    "default_0.5_FP": 551,
+    "default_0.5_FN": 27,
+    "cost_if_no_model": 19960.35,
+    "cost_if_block_all": 1137910.0,
+    "FP_COST": 10.0
+  },
+  "retrain_loop": {
+    "alert_window": 1,
+    "evaluated_on_window": 2,
+    "stale_model_PR-AUC": 0.12074854589039996,
+    "retrained_model_PR-AUC": 0.4394923908494933
+  },
+  "monitoring_alert_windows_drift_scenario": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "monitoring_alert_windows_control": [
+    1,
+    2,
+    3,
+    4
+  ]
+}
