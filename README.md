@@ -22,7 +22,7 @@ no-drift control), then runs a simple retrain loop.
 ## Setup
 
 ```bash
-git clone https://github.com/<your-username>/fraud-drift-monitor.git
+git clone https://github.com/deepshikhakawatra1308/fraud-drift-monitor.git
 cd fraud-drift-monitor
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\\Scripts\\activate
